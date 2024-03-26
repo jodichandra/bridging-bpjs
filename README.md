@@ -44,6 +44,7 @@ Dokumentasi lengkap API BPJS dapat ditemukan di [sini](https://trustmark.bpjs-ke
 Anda dapat berkontribusi pada pengembangan class BridgingBPJS dengan:
 - Melaporkan bug di disini.
 - Mengirimkan pull request di disini.
+- Membuka issue disini
 
 ## Lisensi
 Class BridgingBPJS dilisensikan di bawah lisensi MIT.
@@ -51,6 +52,4 @@ Class BridgingBPJS dilisensikan di bawah lisensi MIT.
 ## Dukungan
 Jika Anda membutuhkan bantuan dalam menggunakan class BridgingBPJS, Anda dapat:
 - Membaca dokumentasi di [sini](https://trustmark.bpjs-kesehatan.go.id/trust-mark/portal.html).
-- Membuka issue di [sini](https://github.com/aamdsam/bridging-bpjs/blob/dev/src/VClaim/Sep.php)
 - Bergabung dengan grup Bridging BPJS
-
