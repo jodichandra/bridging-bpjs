@@ -49,7 +49,14 @@ Anda dapat berkontribusi pada pengembangan class BridgingBPJS dengan:
 ## Lisensi
 Class BridgingBPJS dilisensikan di bawah lisensi MIT.
 
-## Dukungan
+## Dokumentasi BPJS
 Jika Anda membutuhkan bantuan dalam menggunakan class BridgingBPJS, Anda dapat:
 - Membaca dokumentasi di [sini](https://trustmark.bpjs-kesehatan.go.id/trust-mark/portal.html).
 - Bergabung dengan grup Bridging BPJS
+
+## Support dan Donasi
+Jika Anda merasa libary ini bermanfaat, Anda dapat memberikan support dan dukungan pengembangan melalui:
+- Saweria [sini](https://saweria.co/jodichandra).
+- Bank Jago : #101632280491
+- Bank BNI  : #1792209093
+- Bank BSI  : #7222068325
