@@ -16,25 +16,24 @@ Class ini memudahkan Anda untuk:
 ## Persyaratan
 - Sudah terdaftar dan memimiliki ID untuk akses API BPJS
 - PHP v7 ke atas
-- Library CI Rest Server dari [Chris Kacerguis](https://github.com/chriskacerguis/codeigniter-restserver)
 - Library LZ-String dari [nullpunkt/lz-string-php](https://pieroxy.net/blog/pages/lz-string/index.html)
-
-## Cara Penggunaan
-1. Instal library CI Rest Server dan LZ-String.
-2. Download atau clone aplikasi.
 
 ## Contoh Penggunaan
 Berikut adalah contoh penggunaan class BridgingBPJS untuk mendapatkan informasi peserta BPJS:
 
 ```php
-$bpjs = new BridgingBPJS();
+require_once 'vendor/autoload.php';
+$key = [
+        'cons_id' => cons_id,
+        'secret_key' => 'secret_key',
+        'user_key' => 'user_key',
+        'base_url' => 'https://apijkn-dev.bpjs-kesehatan.go.id',
+        'service_name' => 'vclaim-rest-dev',
+    ];
+$bpjs = new \Bridging\Bpjs\VClaim\Peserta($key);
 
-$data = $bpjs->getPeserta('1234567890');
-
-echo $data['nama'];
-echo $data['nik'];
-echo $data['tanggal_lahir'];
-echo $data['tanggal_lahir'];
+$result = $bpjs->getByNoKartu('no_kartu_bpjs', date('Y-m-d'));
+print("<pre>".print_r($result,true)."</pre>");
 ```
 
 ## Dokumentasi
@@ -49,7 +48,14 @@ Anda dapat berkontribusi pada pengembangan class BridgingBPJS dengan:
 ## Lisensi
 Class BridgingBPJS dilisensikan di bawah lisensi MIT.
 
-## Dukungan
+## Dokumentasi BPJS
 Jika Anda membutuhkan bantuan dalam menggunakan class BridgingBPJS, Anda dapat:
 - Membaca dokumentasi di [sini](https://trustmark.bpjs-kesehatan.go.id/trust-mark/portal.html).
 - Bergabung dengan grup Bridging BPJS
+
+## Support dan Donasi
+Jika Anda merasa libary ini bermanfaat, Anda dapat memberikan support dan dukungan pengembangan melalui:
+- Saweria [sini](https://saweria.co/jodichandra).
+- Bank Jago : 101632280491
+- Bank BNI  : 1792209093
+- Bank BSI  : 7222068325
