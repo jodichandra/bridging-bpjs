@@ -21,10 +21,7 @@ Class ini memudahkan Anda untuk:
 
 ## Cara Penggunaan
 1. Instal library CI Rest Server dan LZ-String.
-2. Download file BridgingBPJS.php dari [sini](https://github.com/virusphp/bridging-bpjs).
-3. Include file BridgingBPJS.php di aplikasi Anda.
-4. Buat instance class BridgingBPJS.
-5. Gunakan method-method class BridgingBPJS untuk berinteraksi dengan aplikasi BPJS.
+2. Download atau clone aplikasi.
 
 ## Contoh Penggunaan
 Berikut adalah contoh penggunaan class BridgingBPJS untuk mendapatkan informasi peserta BPJS:
