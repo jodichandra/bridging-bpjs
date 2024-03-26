@@ -1,7 +1,7 @@
 <?php
-namespace Bridging\Bpjs\Antrian;
+namespace JodiChandra\Bridging\Bpjs\Antrian;
 
-use Bridging\Bpjs\BpjsService;
+use JodiChandra\Bridging\Bpjs\BpjsService;
 
 class Dashboard extends BpjsService
 {

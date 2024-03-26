@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Jodichandra\\BridgingBpjs\\": "src/"
+            "JodiChandra\\BridgingBpjs\\": "src/"
         }
     },
     "authors": [

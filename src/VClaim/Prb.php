@@ -1,7 +1,7 @@
 <?php
-namespace Bridging\Bpjs\VClaim;
+namespace JodiChandra\Bridging\Bpjs\VClaim;
 
-use Bridging\Bpjs\BpjsService;
+use JodiChandra\Bridging\Bpjs\BpjsService;
 
 class Prb extends BpjsService
 {
