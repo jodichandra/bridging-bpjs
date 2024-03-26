@@ -3,6 +3,7 @@
     "description": "class bridging semua aplikasi bpjs",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Jodichandra\\BridgingBpjs\\": "src/"
