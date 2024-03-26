@@ -57,6 +57,6 @@ Jika Anda membutuhkan bantuan dalam menggunakan class BridgingBPJS, Anda dapat:
 ## Support dan Donasi
 Jika Anda merasa libary ini bermanfaat, Anda dapat memberikan support dan dukungan pengembangan melalui:
 - Saweria [sini](https://saweria.co/jodichandra).
-- Bank Jago : #101632280491
-- Bank BNI  : #1792209093
-- Bank BSI  : #7222068325
+- Bank Jago : 101632280491
+- Bank BNI  : 1792209093
+- Bank BSI  : 7222068325
