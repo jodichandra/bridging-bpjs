@@ -27,14 +27,18 @@ Class ini memudahkan Anda untuk:
 Berikut adalah contoh penggunaan class BridgingBPJS untuk mendapatkan informasi peserta BPJS:
 
 ```php
-$bpjs = new BridgingBPJS();
+require_once 'vendor/autoload.php';
+$key = [
+        'cons_id' => cons_id,
+        'secret_key' => 'secret_key',
+        'user_key' => 'user_key',
+        'base_url' => 'https://apijkn-dev.bpjs-kesehatan.go.id',
+        'service_name' => 'vclaim-rest-dev',
+    ];
+$bpjs = new \Bridging\Bpjs\VClaim\Peserta($key);
 
-$data = $bpjs->getPeserta('1234567890');
-
-echo $data['nama'];
-echo $data['nik'];
-echo $data['tanggal_lahir'];
-echo $data['tanggal_lahir'];
+$result = $bpjs->getByNoKartu('no_kartu_bpjs', date('Y-m-d'));
+print("<pre>".print_r($result,true)."</pre>");
 ```
 
 ## Dokumentasi
