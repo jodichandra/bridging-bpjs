@@ -1,7 +1,7 @@
 <?php
-namespace JodiChandra\Bridging\Bpjs\VClaim;
+namespace JodiChandra\BridgingBpjs\VClaim;
 
-use JodiChandra\Bridging\Bpjs\BpjsService;
+use JodiChandra\BridgingBpjs\BpjsService;
 
 class Referensi extends BpjsService
 {

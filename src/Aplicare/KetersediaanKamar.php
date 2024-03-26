@@ -1,7 +1,7 @@
 <?php
-namespace JodiChandra\Bridging\Bpjs\Aplicare;
+namespace JodiChandra\BridgingBpjs\Aplicare;
 
-use JodiChandra\Bridging\Bpjs\BpjsService;
+use JodiChandra\BridgingBpjs\BpjsService;
 
 class KetersediaanKamar extends BpjsService
 {

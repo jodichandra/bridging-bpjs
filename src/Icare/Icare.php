@@ -1,7 +1,7 @@
 <?php
-namespace JodiChandra\Bridging\Bpjs\Icare;
+namespace JodiChandra\BridgingBpjs\Icare;
 
-use JodiChandra\Bridging\Bpjs\BpjsService;
+use JodiChandra\BridgingBpjs\BpjsService;
 
 class Icare extends BpjsService
 {

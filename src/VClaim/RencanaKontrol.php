@@ -1,6 +1,6 @@
 <?php
-namespace JodiChandra\Bridging\Bpjs\VClaim;
-use JodiChandra\Bridging\Bpjs\BpjsService;
+namespace JodiChandra\BridgingBpjs\VClaim;
+use JodiChandra\BridgingBpjs\BpjsService;
 
 class RencanaKontrol extends BpjsService
 {

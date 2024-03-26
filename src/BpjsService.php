@@ -1,5 +1,5 @@
 <?php
-namespace JodiChandra\Bridging\Bpjs;
+namespace JodiChandra\BridgingBpjs;
 
 use GuzzleHttp\Client;
 use LZCompressor\LZString;
