@@ -1,11 +1,59 @@
 # Bridging BPJS
 
 ## Deskripsi
-Class bridging untuk integrasi dengan aplikasi BPJS. Proyek ini mencakup semua aplikasi BPJS, termasuk JKNMobile, VClaim, Icare, dan Aplicares.
+Bridging BPJS adalah class PHP yang menghubungkan aplikasi Anda dengan berbagai aplikasi BPJS Kesehatan, termasuk:
+- JKNMobile
+- VClaim
+- Icare
+- Aplicares
+
+Class ini memudahkan Anda untuk:
+- Mengirim dan menerima data dari aplikasi BPJS
+- Memproses klaim BPJS
+- Mendapatkan informasi peserta BPJS
+- Dan banyak lagi
 
 ## Persyaratan
-Aplikasi ini membutuhkan PHP versi 7 ke atas untuk dapat berfungsi dengan baik.
+- Sudah terdaftar dan memimiliki ID untuk akses API BPJS
+- PHP v7 ke atas
+- Library CI Rest Server dari [Chris Kacerguis](https://github.com/chriskacerguis/codeigniter-restserver)
+- Library LZ-String dari [nullpunkt/lz-string-php](https://pieroxy.net/blog/pages/lz-string/index.html)
 
-## Library Terkait
-- [CI Rest Server](https://github.com/chriskacerguis/codeigniter-restserver) dari Chris Kacerguis - Library ini digunakan untuk membangun RESTful API dengan menggunakan framework CodeIgniter.
-- [LZ-String](https://github.com/nullpunkt/lz-string-php) dari nullpunkt - Library ini digunakan untuk kompresi dan dekompresi string menggunakan algoritma LZ.
+## Cara Penggunaan
+1. Instal library CI Rest Server dan LZ-String.
+2. Download file BridgingBPJS.php dari [sini](https://github.com/virusphp/bridging-bpjs).
+3. Include file BridgingBPJS.php di aplikasi Anda.
+4. Buat instance class BridgingBPJS.
+5. Gunakan method-method class BridgingBPJS untuk berinteraksi dengan aplikasi BPJS.
+
+## Contoh Penggunaan
+Berikut adalah contoh penggunaan class BridgingBPJS untuk mendapatkan informasi peserta BPJS:
+
+```php
+$bpjs = new BridgingBPJS();
+
+$data = $bpjs->getPeserta('1234567890');
+
+echo $data['nama'];
+echo $data['nik'];
+echo $data['tanggal_lahir'];
+echo $data['tanggal_lahir'];
+```
+
+## Dokumentasi
+Dokumentasi lengkap API BPJS dapat ditemukan di [sini](https://trustmark.bpjs-kesehatan.go.id/trust-mark/portal.html).
+
+## Kontribusi
+Anda dapat berkontribusi pada pengembangan class BridgingBPJS dengan:
+- Melaporkan bug di disini.
+- Mengirimkan pull request di disini.
+
+## Lisensi
+Class BridgingBPJS dilisensikan di bawah lisensi MIT.
+
+## Dukungan
+Jika Anda membutuhkan bantuan dalam menggunakan class BridgingBPJS, Anda dapat:
+- Membaca dokumentasi di [sini](https://trustmark.bpjs-kesehatan.go.id/trust-mark/portal.html).
+- Membuka issue di [sini](https://github.com/aamdsam/bridging-bpjs/blob/dev/src/VClaim/Sep.php)
+- Bergabung dengan grup Bridging BPJS
+
