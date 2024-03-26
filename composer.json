@@ -14,5 +14,8 @@
             "email": "70di.chandra@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "nullpunkt/lz-string-php": "^1.0"
+    }
 }
