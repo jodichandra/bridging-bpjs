@@ -16,7 +16,6 @@ Class ini memudahkan Anda untuk:
 ## Persyaratan
 - Sudah terdaftar dan memimiliki ID untuk akses API BPJS
 - PHP v7 ke atas
-- Library CI Rest Server dari [Chris Kacerguis](https://github.com/chriskacerguis/codeigniter-restserver)
 - Library LZ-String dari [nullpunkt/lz-string-php](https://pieroxy.net/blog/pages/lz-string/index.html)
 
 ## Cara Penggunaan
