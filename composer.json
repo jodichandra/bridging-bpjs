@@ -1,0 +1,19 @@
+{
+    "name": "jodichandra/bridging-bpjs",
+    "description": "Class bridging ke aplikasi BPJS Meliputi Semua Aplikasi BPJS (JKNMobile, VClaim, Icare,Aplicares)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jodichandra\\BridgingBpjs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jodi Chandra",
+            "email": "70di.chandra@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

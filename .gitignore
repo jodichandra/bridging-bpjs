@@ -1,0 +1,11 @@
+# Ignore folder vendor
+/vendor/
+
+# Ignore file log
+*.log
+
+# Ignore file konfigurasi
+config.ini
+
+# Ignore file sementara
+*.tmp
