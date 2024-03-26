@@ -18,10 +18,6 @@ Class ini memudahkan Anda untuk:
 - PHP v7 ke atas
 - Library LZ-String dari [nullpunkt/lz-string-php](https://pieroxy.net/blog/pages/lz-string/index.html)
 
-## Cara Penggunaan
-1. Instal library CI Rest Server dan LZ-String.
-2. Download atau clone aplikasi.
-
 ## Contoh Penggunaan
 Berikut adalah contoh penggunaan class BridgingBPJS untuk mendapatkan informasi peserta BPJS:
 
