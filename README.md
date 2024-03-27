@@ -15,8 +15,7 @@ Class ini memudahkan Anda untuk:
 
 ## Persyaratan
 - Sudah terdaftar dan memimiliki ID untuk akses API BPJS
-- PHP v7 ke atas
-- Library LZ-String dari [nullpunkt/lz-string-php](https://pieroxy.net/blog/pages/lz-string/index.html)
+- PHP >= v.7
 
 ## Contoh Penggunaan
 Berikut adalah contoh penggunaan class BridgingBPJS untuk mendapatkan informasi peserta BPJS:
